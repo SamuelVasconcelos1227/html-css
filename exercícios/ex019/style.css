@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'amor';
+    src: url(RomanticDates.ttf) format('truetype');
+}
+/* em HTML é id    = em CSS é #
+   em HTML é class - em CSS é .
+*/
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+
+}
+body{
+    background-image: linear-gradient(to right, rgb(38, 194, 221), rgb(34, 176, 201));
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(32, 152, 173);
+}    
+h1#principal{
+    text-align: center;
+    background-color: rgb(38, 194, 221);
+    color: white;
+}
+
+h2{
+    color: rgb(82, 218, 241);
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: 'amor', Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+.intermediario{
+    color: rgb(190, 190, 32);
+}
+.avancado{
+    color: rgb(131, 42, 42);
+}
+.basico{
+    color: rgb(117, 199, 97);
+}

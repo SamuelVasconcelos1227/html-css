@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <style>
+        body{
+            font: 14pt Arial;
+        }
+    </style>
+</head>
+<body>
+   <h1>Imagens Dinâmicas</h1>
+   <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente diminua o tamanho do seu navegador.</p>
+   <picture>
+    <source media="(max-width: 730px)" srcset="imagens/imagempequena.png" type="image/png">
+    <source media="(max-width: 1030px)" srcset="imagens/imagemmedia.png" type="image/png">
+    <img src="imagens/imagemgrande.png" alt="Imagem Flexível">
+   </picture> 
+   <p><a href="pagina002.html">Ir para a segunda página de testes!</a></p>
+   <h1>Reproduzindo áudio</h1>
+   <p>Vamos aprender a reproduzir áudios</p>
+   <!--<audio src="midia/lancinho.mp3" controls></audio> Outras formas de colocar áudio ogg,wav,mp3 no pdf do cap 11 do gustavo-->
+   <audio preload="metadata" controls>
+    <source src="midia/lancinho.mp3" type="audio/mpeg">
+    <source src="midia/lancinho.ogg" type="audio/ogg">  
+    <source src="midia/lancinho.wav" type="audio/wav">
+    <!--<p>Infelizmente seu navegador não é capaz de reproduzir áudio. <a href="midia/lancinho.mp3" download="midia/lancinho.mp3" type="audio/mpeg">clique aqui para download</a></p>-->
+   </audio>
+</body>
+</html>
