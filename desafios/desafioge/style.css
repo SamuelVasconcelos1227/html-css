@@ -4,17 +4,20 @@
     src: url('font/JTLeonor-Bold.otf') format("opentype");
 }
 header{
-    font-family: ge, Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 1.2em;
-    background-color: #06AA48;
-    padding: 5px;
 
+    
 }
-header > h1{
-    margin: 8px;
+.titulo{
+    
     text-align: center;
 }
+div.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
 body{
     background-color: white;
 }
